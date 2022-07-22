@@ -10,7 +10,7 @@ const Main = () => {
 			/>
       <div className='grid gap-5 z-10'>
         <h1 className='text-[80px] leading-[84px] text-center text-white'>The Private<br/>Cryptocurrency</h1>
-        <button className='flex mx-auto px-7 py-3 bg-[#FFA8DE] rounded-full text-mainback'>Get Started</button>
+        <button className='flex mx-auto px-7 py-3 bg-[#FFA8DE] rounded-full text-mainback font-normal text-[22px] leading-[33px]'>Get Started</button>
       </div>
 		</div>
 	)

@@ -5,6 +5,7 @@
 * {
 	font-family: 'Familjen Grotesk', sans-serif;
   letter-spacing: 1px;
+  outline: none;
 }
 .container {
 	@apply xl:w-[1100px] xl:mx-auto;

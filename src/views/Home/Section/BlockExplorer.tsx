@@ -4,7 +4,7 @@ const BlockExplorer = () => {
 	return (
 		<div className='bg-[#FFCD85] py-32'>
 			<div className='container flex gap-20'>
-				<div className='w-[440px] grid gap-8 items-center'>
+				<div className='w-[440px] flex flex-col justify-evenly'>
 					<h2>We care about usability</h2>
 					<p className='main-text'>
 						We’ve struggled with many cryptocurrencies to learn how to build
@@ -17,7 +17,7 @@ const BlockExplorer = () => {
 						Download CLI
 					</button>
 				</div>
-				<img src='/assets/image/block-explorer.png' alt='block-explorer' />
+				<img src='/assets/image/block-explorer.png' alt='block-explorer' className='w-[585px] h-full'/>
 			</div>
 		</div>
 	)

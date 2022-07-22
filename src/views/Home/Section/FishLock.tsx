@@ -4,7 +4,7 @@ const FishLock = () => {
 	return (
 		<div className='bg-[#E5E5E5] py-32'>
 			<div className='container flex gap-20'>
-				<div className='w-[440px] grid gap-8'>
+				<div className='w-min-[440px] grid gap-8'>
 					<h2>A new chain with the strongest privacy </h2>
 					<p className='main-text'>
 						Most payments are now digital, and the need for financial privacy
@@ -19,7 +19,7 @@ const FishLock = () => {
 					</p>
           <button className='px-[30px] py-5 text-white bg-black rounded-full w-fit text-xl font-normal'>Features Comparison</button>
 				</div>
-        <img src="/assets/image/fish-lock.png" alt="fish-lock" />
+        <img src="/assets/image/fish-lock.png" alt="fish-lock" className='w-[591px] h-full'/>
 			</div>
 		</div>
 	)
