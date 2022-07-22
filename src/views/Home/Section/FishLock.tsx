@@ -17,6 +17,7 @@ const FishLock = () => {
 						transaction decryption keys. Your data. Your information. Your
 						coins.
 					</p>
+          <button className='px-[30px] py-5 text-white bg-black rounded-full w-fit text-xl font-normal'>Features Comparison</button>
 				</div>
         <img src="/assets/image/fish-lock.png" alt="fish-lock" />
 			</div>
