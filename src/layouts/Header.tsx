@@ -4,16 +4,6 @@ import { ReactComponent as Logo } from 'icons/logo.svg'
 import { ReactComponent as ArrowDown } from 'icons/arrow-down.svg'
 import {ReactComponent as Divider} from 'icons/divider.svg'
 
-const Items = [
-	{
-		title: 'Get Started',
-		to: '#',
-	},
-	{ title: 'Whitepaper', to: '#' },
-	{ title: 'Company', to: '#' },
-	{ title: 'Testnet', to: '#' },
-]
-
 const Header = () => {
 	return (
 		<header className='z-50 fixed px-16 h-[110px] w-full flex items-center justify-between text-white'>
