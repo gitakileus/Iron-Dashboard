@@ -2,7 +2,7 @@ import React from 'react'
 
 const Earth = () => {
 	return (
-		<div className='bg-[#E5E5E5] py-32 relative h-[894px] flex items-center'>
+		<div className='bg-[#E5E5E5] py-32 relative h-[894px] flex items-center overflow-hidden'>
 			<div className='container flex gap-20'>
 				<div className='w-[440px] grid gap-8'>
 					<h2>Borderless, private banking for everyone</h2>
