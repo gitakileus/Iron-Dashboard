@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+* {
+	font-family: 'Familjen Grotesk', sans-serif;
+}
+.container {
+	@apply xl:w-[1100px] xl:mx-auto;
+}
+
+h2 {
+	@apply text-[46px] leading-[56px];
+}
+
+.main-text {
+	@apply text-xl leading-8;
+}
